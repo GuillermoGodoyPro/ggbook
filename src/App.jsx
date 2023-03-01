@@ -1,16 +1,26 @@
-import './App.css';
-import { NavBar } from './components/NavBar';
+import React from 'react';
+// components
+import Banner from './components/Banner';
+import Header from './components/Header';
+import About from './components/About';
+import Services from './components/Services';
+import Work from './components/Work';
+import Contact from './components/Contact';
+import { Nav } from './components/Nav';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <h1 className='bg-indigo-500'>hola</h1>
-     
-      <div>
-        <NavBar/>
-      </div>
+    <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
+      <Header />
+      <Banner />
+      <Nav />
+      <About />
+      <Services />
+      <Work />
+      <Contact />
+      <div className='h-[4000px]'></div> 
     </div>
   );
-}
+};
 
 export default App;
