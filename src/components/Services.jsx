@@ -12,17 +12,17 @@ const services = [
   {
     name: 'Graphic design',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sit.',
-    link: 'Learn More'
+    link: 'https://github.com/GuillermoGodoyPro'
   },
   {
     name: 'Development',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sit.',
-    link: 'Learn More'
+    link: 'https://github.com/GuillermoGodoyPro'
   },
   {
     name: 'Business Services',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, sit.',
-    link: 'Learn More'
+    link: 'https://github.com/GuillermoGodoyPro'
   },
 ]
 
@@ -73,10 +73,12 @@ export const Services = () => {
                         </p>
                       </div>
                       <div className='flex flex-col flex-1 items-end'>
-                        <a href="#" className='btn w-0 h-9 mb-[42px] flex justify-center items-center'>
+                        <a href={link} className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
                           <BsArrowUpRight />
                         </a>
-                        <a href='#' className='text-gradient text-sm'>{link}</a>
+                        <a href={link} className='text-gradient text-sm'>
+                          Learn more
+                        </a>
                       </div>
                     </div>
                   )
