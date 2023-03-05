@@ -13,8 +13,8 @@ import Img3 from '../assets/portfolio-img3.png'
 export const Work = () => {
   return (
     <section className='section' id='work'>
-      <div className='container mx-auto'>
-        <div className='flex flex-col lg:flex-row gap-x-10'>
+      <div className='container mx-auto '>
+        <div className='flex flex-col lg:flex-row gap-x-10 items-center'>
           <motion.div 
             variants={fadeIn('right', 0.2)}
             initial='hidden'
@@ -28,7 +28,7 @@ export const Work = () => {
                 My Latest <br/>
                 Work.
               </h2>
-              <p className='max-w-sm mb-10'>
+              <p className='max-w-sm mb-8'>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. A recusandae, nulla saepe explicabo cupiditate rerum consectetur accusamus ipsum sint molestiae?
               </p>
               <button className='btn btn-sm'>View all projects</button>
