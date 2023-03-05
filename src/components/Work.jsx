@@ -34,7 +34,7 @@ export const Work = () => {
               <button className='btn btn-sm'>View all projects</button>
             </div>
               {/* image */}
-            <div className='group relative overflow-hidden border-2 sm:mb-10 border-white/50 rounded-xl'>        
+            <div className='group relative overflow-hidden border-2 mb-10 border-white/50 rounded-xl'>        
               {/* overlay */}
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 '>
               </div>
