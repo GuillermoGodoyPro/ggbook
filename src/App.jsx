@@ -14,10 +14,10 @@ const App = () => {
       <Header />
       <Banner />
       <Nav />
-      <About/>
       <Services />
       <Work />
       <Contact />
+      <About/>
       <div className='h-[4000px]'></div> 
     </div>
   );
